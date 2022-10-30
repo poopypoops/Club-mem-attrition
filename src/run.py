@@ -656,6 +656,11 @@ plt.show()
 # Saving a model
 dump(adb, 'adaboost.dump')
 
+#Printing results onto df
+results_df = pd.DataFrame(np.array([["Logistic regression", lg_base_accuracy_test], ["Descion Tree", dt_base_accuracy_test], 
+                                    ["ADB", adb_base_accuracy_test],["Random Forest", rf_base_accuracy_test ],
+                                    ["SVM", svc_base_accuracy_test],["KNN", knn_base_accuracy_test],["Naive Bayes",gnb_base_accuracy_test]),
+                   columns=['Model', 'testing accuracy'])
 
 
-
+results_df.to_csv(r'results/testing accuracy.csv', index=False, header=False)
