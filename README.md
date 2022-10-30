@@ -9,19 +9,19 @@ Email: laugayle@gmail.com
 ### Independent Features
 
 Attribute Description
-*`Age` - Age of the member when signing up as a member
-*`Gender` - Gender of the member 
-*`Monthly Income` - Monthly declared income of the member in SGD
-*`Travel Time` - Estimated amount of time needed to travel to the club from home (mins)
-*`Qualification` - Education qualification level of the member (1-Diploma, 2-Bachelors, 3-Masters, 4-PH.D)
-*`Work Domain` - Work domain of the member
-*`Usage rate` - Average number of days in a week visiting the country club
-*`Branch` - Location of the branch that the member visits
-*`Membership` - Membership tier (1-Normal 2-Bronze 3-Silver 4-Gold)
-*`Months` - Number of months as a member of the country club
-*`Birth Year` - Year the member was born
-*`Usage Time` - Average number of hours spent in the country club per visit
-*`Usage` - Usage Time * Usage Rate (new)
+* `Age` - Age of the member when signing up as a member
+* `Gender` - Gender of the member 
+* `Monthly Income` - Monthly declared income of the member in SGD
+* `Travel Time` - Estimated amount of time needed to travel to the club from home (mins)
+* `Qualification` - Education qualification level of the member (1-Diploma, 2-Bachelors, 3-Masters, 4-PH.D)
+* `Work Domain` - Work domain of the member
+* `Usage rate` - Average number of days in a week visiting the country club
+* `Branch` - Location of the branch that the member visits
+* `Membership` - Membership tier (1-Normal 2-Bronze 3-Silver 4-Gold)
+* `Months` - Number of months as a member of the country club
+* `Birth Year` - Year the member was born
+* `Usage Time` - Average number of hours spent in the country club per visit
+* `Usage` - Usage Time * Usage Rate (new)
 
 
 ### Target Feature
@@ -57,21 +57,21 @@ for predicting member attrition.
 
 ## Executing the pipeline
 **run.py**
-Stepts:
-**1. Imports the data from .db file
-**2. Data Cleaning (data is cleaned - 'Age', 'Monthly Income', `Birth Year`, 'Qualification', 'Travel Time'
-**3. Feature Engineering (one-hot encoding/ordinal encoding for categorical data)
-**4. Data split into training and testing data (80/20)
-**5. Building of the Models
+Steps:
+**1. Imports the data from .db file**
+**2. Data Cleaning (data is cleaned - 'Age', 'Monthly Income', `Birth Year`, 'Qualification', 'Travel Time'**
+**3. Feature Engineering (one-hot encoding/ordinal encoding for categorical data)**
+**4. Data split into training and testing data (80/20)**
+**5. Building of the Models**
 
-*Logistic Regression
-*Decision Tree Model
-*Boosting Decision Tree
-*Bagging Decision Tree
-*Random Forest Model
-*Support Vector Machine
-*KNN
-*Naive Bayes
+* Logistic Regression
+* Decision Tree Model
+* Boosting Decision Tree
+* Bagging Decision Tree
+* Random Forest Model
+* Support Vector Machine
+* KNN
+* Naive Bayes
 
 **6. Results**
 
