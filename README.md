@@ -56,13 +56,13 @@ for predicting member attrition.
     └── run.py
 
 ## Executing the pipeline
-**run.py**
-Steps:
-**1. Imports the data from .db file**
-**2. Data Cleaning (data is cleaned - 'Age', 'Monthly Income', `Birth Year`, 'Qualification', 'Travel Time'**
-**3. Feature Engineering (one-hot encoding/ordinal encoding for categorical data)**
-**4. Data split into training and testing data (80/20)**
-**5. Building of the Models**
+**run.py
+### Steps:
+#### **1. Imports the data from .db file**
+#### **2. Data Cleaning (data is cleaned - 'Age', 'Monthly Income', `Birth Year`, 'Qualification', 'Travel Time)'**
+#### **3. Feature Engineering (one-hot encoding/ordinal encoding for categorical data)**
+#### **4. Data split into training and testing data (80/20)**
+#### **5. Building of the Models**
 
 * Logistic Regression
 * Decision Tree Model
