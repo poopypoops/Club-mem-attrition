@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+import warnings
+warnings.filterwarnings("ignore", category=FutureWarning)
 
 import sqlite3
 from sqlite3 import Error
