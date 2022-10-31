@@ -365,13 +365,13 @@ param_grid = {  'penalty' : ['l1','l2'],
 
 
 
-gs = GridSearchCV(lg, param_grid=param_grid, scoring='accuracy', cv= 10, n_jobs=-1)
+#gs = GridSearchCV(lg, param_grid=param_grid, scoring='accuracy', cv= 10, n_jobs=-1)
 # cv: number of partitions for cross validation
 # n_jobs: number of jobs to run in parallel, -1 means using all processors
-gs = gs.fit(x_train, y_train) 
+#gs = gs.fit(x_train, y_train) 
 
-print(gs.best_score_)
-print(gs.best_params_)
+#print(gs.best_score_)
+#print(gs.best_params_)
 
 
 
