@@ -49,6 +49,8 @@ for predicting member attrition.
 ├── eda.ipnyb
 ├── data
 │   └── score.db # removed
+├── results
+│   └── testing accuracy.csv
 ├── requirements.txt
 ├── run.sh
 └── src
